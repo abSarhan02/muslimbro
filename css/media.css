@@ -1,0 +1,409 @@
+/* X-Small */
+@media screen and (max-width: 375px) {
+  
+  .section-intro h2 {
+    font-size: 1rem;
+  }
+  
+  .section-intro p {
+    font-size: 0.95rem;
+    padding-bottom: 0rem;
+    margin: 0;
+
+  }
+  .p-group {
+    margin-top: 0rem;
+    width: 100%;
+  }
+  
+  .p-group .special {
+    color: gold;
+    font-size:0.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    width: 90vw;
+  }
+
+  /**NAV-BAR START */
+  nav .container .nav-list ul {
+    display: none;
+  }
+
+  nav .container .nav-logo h1 {
+    font-size: 1.4rem;
+  }
+
+  nav .container .nav-toggle {
+    display: inline-block;
+  }
+
+  /**NAV-BAR END */
+  /**HERO START */
+  .hero .container {
+    flex-direction: column;
+  }
+
+  .hero .container .h-content {
+    width: 100%;
+  }
+
+  .hero .container .h-content h2 {
+    font-size: 2rem;
+    width: 85%;
+  }
+
+  .hero .container .h-content p {
+    width: 100%;
+  }
+
+  .hero .container .h-img {
+    width: 100%;
+  }
+
+  /**HERO END */
+  #prayer-times .container {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  #prayer-times img {
+    width: 1.5rem;
+  }
+
+  #prayer-times .container .pt-content {
+    padding: 0;
+    margin: 0;
+  }
+
+  #prayer-times .container .pt-content .pt {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.1rem;
+  }
+
+  #prayer-times .container .prayer span {
+    font-size: 1.1rem;
+  }
+  .pillars {
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+  }
+
+  #five-pillars .container .pillar {
+    width: 70%;
+    margin: auto;
+  }
+
+  #five-pillars .container .section-intro h2 {
+    font-size: 1.2rem;
+  }
+
+  /**QURAN START */
+  .quran .container{
+    flex-direction: column;
+  }
+  /**QURAN END */
+  /**AZKAR START */
+  .azkar .container .azkar-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .azkar .container .azkar-mattina {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /**AZKAR END */
+  /**FOOTER START */
+  footer .container .contact {
+    flex-direction: column;
+  }
+  .contact-us {
+    font-size: 1.2em;
+    text-align: start;
+    color: white;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    p{
+      margin-top: 1rem;
+      font-size: 1rem;
+      a{
+        color: var(--yellow);
+      }
+    }
+    a{color: white;}
+  }
+  
+  /**FOOTER END */
+
+
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  main{
+    background-size: 110%;
+  }
+  
+  .section-intro h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .section-intro p {
+    font-size: 1rem;
+    padding-bottom: 0rem;
+    margin: 0;
+  }
+
+  .p-group {
+    margin-top: 0rem;
+    width: 100%;
+  }
+  
+  .p-group .special {
+    color: gold;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    width: 90vw;
+  }
+
+  /**NAV-BAR START */
+  nav .container .nav-list ul {
+    display: none;
+  }
+
+  nav .container .nav-logo h1 {
+    font-size: 1.4rem;
+  }
+
+  nav .container .nav-toggle {
+    display: inline-block;
+  }
+
+  /**NAV-BAR END */
+  /**HERO START */
+  .hero .container {
+    flex-direction: column;
+  }
+
+  .hero .container .h-content {
+    width: 100%;
+  }
+
+  .hero .container .h-content h2 {
+    font-size: 2.5rem;
+    width: 90%;
+  }
+
+  .hero .container .h-content p {
+    width: 90%;
+  }
+
+  .hero .container .h-img {
+    width: 100%;
+  }
+
+  /**HERO END */
+  #prayer-times .container {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  #prayer-times img {
+    width: 1.5rem;
+  }
+
+  #prayer-times .container .pt-content {
+    padding: 0;
+    margin: 0;
+  }
+
+  #prayer-times .container .pt-content .pt {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.1rem;
+  }
+
+  #prayer-times .container .prayer span {
+    font-size: 1.1rem;
+  }
+
+    #prayer-times .container {
+      display: flex;
+      flex-direction: column;
+      font-size: 0.9rem;
+      padding: 0.5rem;
+    }
+
+    #prayer-times img {
+      width: 1.5rem;
+    }
+
+    #prayer-times .container .pt-content {
+      padding: 0;
+      margin: 0;
+    }
+
+    #prayer-times .container .pt-content .pt {
+      padding: 1rem;
+      margin: 1rem;
+      font-size: 1.1rem;
+    }
+
+    #prayer-times .container .prayer span {
+      font-size: 1.1rem;
+    }
+    .pillars {
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+  
+    #five-pillars .container .pillar {
+      width: 70%;
+      margin: auto;
+    }
+  
+    #five-pillars .container .section-intro h2 {
+      font-size: 1.2rem;
+    }
+    /**QURAN START */
+  .quran .container{
+    font-size: 0.9rem;
+    flex-direction: column-reverse;
+  }
+  /**QURAN END */
+  /**AZKAR START */
+  .azkar .container .azkar-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .azkar .container .azkar-mattina {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  /**AZKAR END */
+    /**FOOTER START */
+    footer .container .contact {
+      flex-direction: column;
+    }
+    
+  .contact-us {
+    font-size: 1.2em;
+    text-align: start;
+    color: white;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    p{
+      margin-top: 1rem;
+      font-size: 1rem;
+      a{
+        color: var(--yellow);
+      }
+    }
+    a{color: white;}
+  }
+  
+    /**FOOTER END */
+  }
+
+
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+      width: 90vw;
+    }
+
+    /**NAV-BAR START */
+    nav .container .nav-list ul {
+      display: none;
+    }
+
+    nav .container .nav-logo h1 {
+      font-size: 2.5rem;
+    }
+
+    nav .container .nav-toggle {
+      display: inline-block;
+    }
+
+    /**NAV-BAR END */
+    /**HERO START */
+    .hero .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      height: 100%;
+    }
+
+    .hero .container .h-content h2 {
+      font-size: 2rem;
+      width: 70%;
+    }
+
+    .hero .container .h-content p {
+      width: 90%;
+    }
+
+    /**HERO END */
+    #prayer-times .container {
+      display: flex;
+      flex-direction: column;
+      font-size: 0.9rem;
+      padding: 0.5rem;
+    }
+
+    #prayer-times img {
+      width: 1.5rem;
+    }
+
+    #prayer-times .container .pt-content {
+      padding: 0;
+      margin: 0;
+    }
+
+    #prayer-times .container .pt-content .pt {
+      padding: 1rem;
+      margin: 1rem;
+      font-size: 1.1rem;
+    }
+
+    #prayer-times .container .prayer span {
+      font-size: 1.1rem;
+    }
+
+
+    
+    #five-pillars .container .pillar {
+      width: 30%;
+      margin: auto;
+    }
+
+    #five-pillars .container .section-intro h2 {
+      font-size: 1.2rem;
+    }
+
+    
+  }

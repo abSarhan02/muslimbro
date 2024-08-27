@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/quran.css">
+    <title>Quran</title>
+</head>
+<body>
+
+    <button id="backButton">Home</button>
+
+    <div class="container" id="app"></div>
+    <div id="surahModal" class="modal">
+        <div class="modal-content">
+            <button id="toggleLanguageButton">Ar</button>
+            <span class="close">&times;</span>
+            <div class="suraTitle">
+                <h2 id="surahTitleAr"></h2>
+                <h3 id="surahTitleIt"></h3>
+            </div>
+            <p id="surahContent"></p>
+        </div>
+    </div>
+<script src="/js/quran.js"></script>
+</body>
+</html>

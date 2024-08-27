@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--FONT AWESOME-->
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+  <!--GOOGLE FONTS END-->
+  <!--MAIN-CSS-->
+  <link rel="stylesheet" href="/css/home.css" />
+  <!--MAIN-CSS-->
+  <!--MEDIA-CSS-->
+  <link rel="stylesheet" href="/css/media.css" />
+  <!--MEDIA-CSS-->
+  <title>Muslim Bro</title>
+</head>
+
+<body>
+  <nav>
+    <div class="container">
+      <div class="nav-logo">
+        <h1>MUSLIM BRO</h1>
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li><a href="#home" id="active">Home</a></li>
+          <li><a href="#prayer-times">Orari di Preghiera</a></li>
+          <li><a href="#quran">Corano</a></li>
+          <li><a href="#azkar">Azkar</a></li>
+          <li><a href="#contact-us">Contatti</a></li>
+        </ul>
+      </div>
+      <div class="nav-toggle">
+        <i class="fa-solid fa-bars" id="bars"></i>
+      </div>
+    </div>
+    <div class="dropdown" id="dropdown-menu">
+      <ul>
+        <li><a href="#home" id="active">Home</a></li>
+        <li><a href="#prayer-times">Orari di Preghiera</a></li>
+        <li><a href="#quran">Corano</a></li>
+        <li><a href="#azkar">Azkar</a></li>
+        <li><a href="#contact-us">Contatti</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header id="home">
+
+    <div class="hero">
+      <div class="container">
+        <div class="h-content">
+          <h2>
+            BENVENUTO SU <span>MUSLIM BRO</span>
+          </h2>
+          <p>
+            Salam bro! Sei atterrato su Muslim Bro, il tuo punto di riferimento per tutto ciò che riguarda la tua fede.
+            Qui trovi gli orari di preghiera, il Corano completo e gli azkar per arricchire la tua giornata. Siamo
+            felici di averti con noi!
+          </p>
+          <div class="btn-group">
+            <div class="book">
+              <a href="#contact" class="btn btn-main btn-book">Bismillah</a>
+            </div>
+          </div>
+        </div>
+        <div class="h-img">
+          <img src="/assets/imgs/3dmosque-min.png" alt="mosque image" />
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!--PRAYER TIMES START-->
+    <section id="prayer-times">
+      <div class="container">
+        <div class="section-intro">
+          <h2>ORARI DI PREGHIERA</h2>
+          <div class="p-group">
+            <p>
+              La preghiera nell'Islam (Salah) unisce i credenti in un atto di
+              umiltà e gratitudine, senza discriminazioni di ricchezza o razza.
+              Questo rito quotidiano rafforza la fede individuale e la coesione
+              comunitaria, promuovendo la pace interiore e l'unità spirituale.
+            </p>
+            <p class="special">
+              Il Profeta <b>Muhammad</b> (pace e benedizioni su di lui) disse: "La
+              preghiera è un patto tra noi e loro. Chi la abbandona ha
+              effettivamente rinnegato la propria fede." (Narrato da Imam Ahmad,
+              Abu Dawood, Al-Tirmidhi, Ibn Majah)
+            </p>
+          </div>
+        </div>
+        <div class="pt-content" id="prayers">
+
+        </div>
+      </div>
+    </section>
+    <!--PRAYER TIMES END-->
+    <!--FIVE PILLARS START -->
+    <section id="five-pillars">
+      <div class="container">
+        <div class="section-intro">
+          <h2>I CINQUE PILASTRI DELL'ISLAM</h2>
+        </div>
+        <div class="pillars" id="pillars-container">
+          <!-- Qui verranno generati dinamicamente i div dei pilastri -->
+        </div>
+      </div>
+    </section>
+    <!--FIVE PILLARS END -->
+    <!--QURAN START-->
+    <section class="quran" id="quran">
+      <div class="container">
+        <div class="quran-content flx-c">
+          <div id="quran-img">
+            <img src="/assets/imgs/quran.png" alt="quran image" />
+          </div>
+          <a href="/html/quran.html" id="quran-btn">Get some hasanat</a>
+        </div>
+        <div class="section-intro">
+          <h2>Corano</h2>
+          <div class="p-group">
+            <p>
+              Scopri la saggezza divina nei versetti del Corano. Ogni pagina può illuminare il tuo cammino, arricchire
+              la tua anima e rafforzare la tua connessione con l'Altissimo. Abbraccia il viaggio di comprensione e
+              illuminazione nelle sacre scritture.
+            </p>
+            <p class="special">
+              Il Profeta Muhammad <strong>(pbsl)</strong> disse: "I migliori tra
+              voi sono coloro che imparano il Corano e lo insegnano agli altri".
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--QURAN END-->
+    <!--AZKAR START-->
+    <section class="azkar" id="azkar">
+      <div class="container">
+        <div class="section-intro">
+          <h2>Azkar</h2>
+          <div class="p-group">
+            <p>
+              Scopri la serenità e la pace interiore attraverso gli Azkar. Ogni preghiera può avvicinarti alla presenza
+              divina, purificare il tuo cuore e fortificare il tuo spirito. Accogli il viaggio di devozione e
+              riflessione nelle invocazioni quotidiane.
+            </p>
+            <p class="special">
+              Il Profeta Muhammad <strong>(pbsl)</strong> disse: "Coloro che ricordano Allah con costanza saranno
+              protetti e benedetti".
+            </p>
+          </div>
+        </div>
+        <div class="azkar-content">
+          <div class="azkar-mattina flx-c">
+            <div id="azkar-img">
+              <img src="/assets/imgs/sunriseAzkar.png" alt="" />
+            </div>
+            <a href="/html/azkar.html?type=morning" id="azkar-btn">Azkar della mattina</a>
+          </div>
+          <div class="azkar-mattina flx-c">
+            <div id="azkar-img">
+              <img src="/assets/imgs/sunset.png" alt="" />
+            </div>
+            <a href="/html/azkar.html?type=evening" id="azkar-btn">azkar della sera</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--AZKAR END-->
+
+  </main>
+  <!--footer start-->
+  <footer>
+    <div class="container" id="contact-us">
+      <div class="contact">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45374.053141573626!2d10.597068761635875!3d44.70168310180926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47801c5b07e5f9b3%3A0xd9e650be4c860335!2sReggio%20Emilia%20RE!5e0!3m2!1sit!2sit!4v1718720794723!5m2!1sit!2sit"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form>
+          <div class="contact-us">
+            <h2>Get in Touch!</h2>
+            <p>Il nostro progetto "Muslim Bro" è dedicato all'educazione islamica. Se hai bisogno di chiarimenti o
+              desideri ulteriori informazioni sulla religione, non esitare a scriverci a <a
+                href="mailto:muslimbro.it@email.com">muslimbro.it@email.com</a> oppure a contattarci sui nostri canali
+              social.
+            </p>
+            <div class="social-links">
+              <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                  <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.twitter.com" target="_blank" class="social-icon">
+                  <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                  <i class="fab fa-instagram"></i>
+              </a>
+          </div>
+          
+          </div>
+        </form>
+      </div>
+    </div>
+    <p>&copy; 2024 Muslim Bro. All rights reserved.</p>
+  </footer>
+  <!--footer start-->
+
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
